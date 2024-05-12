@@ -1,0 +1,481 @@
+/* Setting the styles for the website */
+/* Setting styles for body */
+body {
+    background-color: rgb(4, 4, 36);
+    font-size: medium;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color: black;
+    font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Styling header */
+header { 
+    background-color: none;
+    color: none;
+    padding: 1rem;
+    text-align: left;
+}
+
+/* Setting styles for headings */
+h1 {
+    color: goldenrod;
+    text-align: none;
+    margin-left: 20rem;
+    padding: 0 auto;
+    margin-top: -5.4rem;
+    font-family: 'Times New Roman',
+
+}
+
+h2 {
+    color: white;
+    font-size: larger;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+h3 {color: green;
+    font-size: larger;
+    font-family: 'Times New Romas';
+    text-align: left;
+    font-style: capital;
+}
+
+h4 {color: rgb(243, 6, 6);
+    font-size: medium;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+
+/* Setting styles for image logo */
+.logo {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    padding: none;
+}
+
+/* Setting styles for footer */
+footer {
+    background-color: none;
+    color: grey;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 50%;
+    margin-top: 7rem;
+    text-decoration-color: aliceblue;
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 1.5;
+    font-family: Arial;
+}
+
+/* Styling links */
+a {
+    background-color: none;
+    color: rgb(30, 30, 233);
+    text-decoration: bold;
+}
+
+a:hover { 
+    text-decoration: red;
+}
+
+/* Styling the navigation bar */
+nav {
+    background-color: none;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin-left: 0;
+}
+li last-child { 
+    margin-left: 0;
+}
+
+a {
+    text-decoration: rgb(66, 4, 4);
+    color: goldenrod;
+    padding: 7rem;
+}
+
+a:hover {
+    background-color: none;
+    text-decoration: underline;
+}
+
+/* styling the ul mover*/
+.move {
+    margin-top: -8.3rem;
+    margin-left: 62rem;
+    font-size: medium;
+}
+
+/* Styling row */
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 5%;
+    height: 25rem;
+    margin-left: 3rem;
+  }
+  
+  .row img {
+    margin-top: 2rem;
+    margin-right: 0 auto;
+    margin-left: 6rem;
+    padding: none;
+  }
+
+  /* sytling the button 
+  button {
+    text-align: center;
+    width: 100px;
+    min-width: 30px;
+    cursor: pointer;
+    margin-left: none;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  /* Styling the horizontal line */
+  hr {
+    color: white;
+    margin-left: 17.5rem;
+    margin-right: 17.5rem;
+  }
+
+  /* Styling random pole */
+  .pole {
+    margin-left: 80rem;
+    margin-top: -43rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Styling about */
+  .abt {
+    text-align: center;
+  }
+
+  /* Styling row1 */
+.row1 {
+    display: flex;
+    flex-direction: row;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .row1 img {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 4rem;
+    padding: none;
+  } 
+  
+  /* Styling pole1 */
+  .pole1 {
+    margin-left: 9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 3rem;
+  }
+
+ /* Styling pole2 */
+ .pole2 {
+    margin-left: 49rem;
+    margin-top: -13.5rem;
+    margin-bottom: 3rem;
+  }
+ /* Styling random pole3 */
+ .pole3 {
+    margin-left: 90rem;
+    margin-top: -14rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Styling form */
+.greg {
+  text-align: center;
+  background: none;
+  background-size: contain;
+  background-color: grey;
+  margin-left: 35rem;
+  margin-right: 33rem;
+  display: block;
+  align-items: center;
+  margin-bottom: 0 auto;
+  padding-bottom: 0.5rem;
+}
+
+/* Stlying the input tag  */
+input {
+  text-align: center;
+  border-color: none;
+  border: 0.2;
+  margin-top: 2rem;
+  color: black;
+  height: 3rem;
+}
+
+/* Styling the label tag */
+label {
+  text-align: center;
+  color:goldenrod;
+}
+
+  /* Styling btn */
+  .btn {
+    text-align: center;
+    margin-left: -0.5rem;
+    margin-top: -10rem;
+    margin-bottom: none;
+
+  }
+
+  /* Styling the article */
+  article {
+    background-color: black;
+    display: block;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Styling forl */
+  .forl {
+    margin-top: 13rem;
+  }
+
+/* Styling random pole3 */
+.pole5 {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-bottom: -16rem;
+}
+
+/* Styling random pole3 */
+.pole6 {
+  margin-left: 93rem;
+  margin-top: 0 auto;
+  margin-bottom: 3rem;
+}
+
+/* Styling random pole3 */
+.pole7 {
+  margin-left: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Styling random pole3 */
+.pole8 {
+  margin-left: 25rem;
+  margin-top: 0 auto;
+  margin-bottom: 1rem;
+}
+
+/* Styling random pole3 */
+.pole9 {
+  margin-left: 47.5rem;
+  margin-top: -18rem;
+  margin-bottom: 3rem;
+}
+ 
+
+/* Styling column img */
+.column {
+  width: 50rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 39rem;
+  margin-bottom: 0 auto;
+}
+
+/* Styling row */
+.row3 {
+  display: flex;
+  flex-direction: row;
+  width: 5%;
+  height: 20rem;
+  margin-left: 7rem;
+}
+
+.row3 img {
+  margin-top: 2rem;
+  margin-right: 0 auto;
+  margin-left: 3rem;
+  padding: none;
+}
+
+/* Styling the tire */
+.tire {
+  margin-top: -16rem;
+}
+
+/* Styling the tire1 */
+.tire1 {
+  margin-top: -17rem;
+}
+
+/* styling social img */
+.soc {
+  display: flex;
+  flex-direction: row;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 0 auto;
+  margin-bottom: 0.5rem;
+}
+
+.soc img {
+  margin-top: 1rem;
+  margin-right: 0 auto;
+  margin-left: 18rem; 
+}
+
+/* styling the sector */
+sector {
+  display: block;
+  background-color: black;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+
+}
+
+/* styling section */
+section {
+  display: block;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+/* styling the main tag */
+main {
+  display: block;
+  background-color: none;
+  padding: 1rem;
+  padding-bottom: 0 auto;
+  margin-bottom: 3rem;
+  border-color: black;
+  text-align: left;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+ /* styling the box tag */
+ .box{
+  text-align: center;
+  padding-bottom: none;
+  margin-right: 54rem;
+  margin-top: 4rem;
+  padding-top: none;
+  background-color: white;
+ }
+
+ /* Styling row */
+.raw {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  height: 25rem;
+  margin-left: 9rem;
+}
+
+.raw img {
+  margin-top: 2rem;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  padding: none;
+}
+/* Styling sly */
+.sly {
+  display: flex;
+  width: 5%;
+  height: 20rem;
+  margin-left: 2rem;
+}
+
+.sly img {
+  margin-top: 5rem;
+  margin-right: 0 auto;
+  margin-left: 2rem;
+  padding: none;
+}
+/* styling the video */
+video {
+  display: block;
+  margin-left: 40rem;
+  margin-bottom: 0 auto;
+  padding: none;
+  margin-top: 0 auto;
+  margin-bottom: 0.7rem;
+}
+.video-container {
+  width: 45.5rem;
+  height: auto;
+}
+
+
+/* styling try */
+.try {
+  text-align: left;
+  margin-left: 9rem;
+}
+
+/* styling try1 */
+.try1 {
+  text-align: left;
+  margin-left: 19rem;
+}
+
+/* styling the rec tag */
+rec {
+  display: block;
+  background-color: goldenrod;
+  color: black;
+  padding-left: 1rem;
+  padding-bottom: 0 auto;
+  margin-bottom: 0.5rem;
+  border-color: black;
+  text-align: left;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
